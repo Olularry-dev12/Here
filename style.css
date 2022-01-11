@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --primary-color:#047aed;
+    --secondary-color: #b4b4b4;
+    --dark-color: #002240;
+    --btn-color: #fff;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body {
+    background-image: url('images/facials.jpeg');
+    background-color: #333;
+ color: #fff;
+ font-family: 'lato', sans-serif;
+ line-height: 1.6;
+}
+
+
+}
+ul{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+img{
+    width:500px;
+    margin-right: 20px;
+    
+}
+/* Navbar */
+.navbar{
+    padding-bottom: 20px;
+
+}
+
+.navbar-nav{
+    font-weight: 500px;
+    font-size: 20px;
+    color: #fff;
+
+}
+.nav-link a:hover{
+    font-size: large;
+    color:chartreuse;
+    border-bottom: 1px solid #b4b4b4;
+}
+/* Homepage */
+.homepage {
+    width:100%;
+    height: 340px;
+    margin: 30px 0;
+
+}
+
+.homepage h2{
+    color:#fff;
+    font-size: 2rem;
+    
+}
+.homepage-form {
+    position: relative;
+    border:none;
+    border-radius: 40px;
+    width: 450px;
+    height:250px;
+    padding:40px;
+    margin-bottom: 5px ;
+    top:40px;
+    z-index: 100%;
+    margin:auto;
+    animation: slideInFromRight 1s ease-out;
+
+   
+}
+.form-control{
+    border: none;
+}
+
+ .form-control input[type='text'],
+.form-control input[type='email'],
+ .form-control input[type='text'] {
+    outline: none;
+    border: none;
+    border-bottom: 5px groove #fff;
+    width: 100%;
+    font-weight: 1.5rem;
+}
+.homepage-form input[type='submit']{
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 20px;
+
+    
+}
+
+
+/* Hero*/
+.services .grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+.img-flush{
+    flex-basis: 30%;
+}
+
+/* ceo*/
+.ceo h3{
+    background-color:chocolate;
+    width: 50%;
+    padding-top: 10px;
+}
+   .ceo {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.ceo img {
+    width:300px;
+}
+/* footer */
+.footer-socials{
+    margin-left: 10px;
+}
+.button{
+    border-radius: 10px;
+    padding:10px;
+}
+ /* Animation */
+ @keyframes slideInFromRight{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+ }
+}
+/* Mobile */
+@media (max-width:550px){
+
+
+
+    
+}
